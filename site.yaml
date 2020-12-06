@@ -1,0 +1,4 @@
+#Site-wise yaml file to import playbooks
+---
+- import_playbook: playbooks/common.yaml
+

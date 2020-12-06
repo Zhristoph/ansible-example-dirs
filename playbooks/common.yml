@@ -1,0 +1,7 @@
+#Example playbook (role not included)
+- name: Common
+  hosts: all
+  become: yes
+  roles:
+    - common
+
